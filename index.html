@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TEJASH KHATKALE - Official Market Expert</title>
 
+    <!-- Meta Pixel Code -->
     <script>
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -15,13 +16,14 @@
       s.parentNode.insertBefore(t,s)}(window, document,'script',
       'https://connect.facebook.net/en_US/fbevents.js');
       
-      fbq('init', '1674111754282301'); 
+      fbq('init', '1674111754282301');
       fbq('track', 'PageView');
     </script>
     <noscript>
       <img height="1" width="1" style="display:none"
            src="https://www.facebook.com/tr?id=1674111754282301&ev=PageView&noscript=1"/>
     </noscript>
+    <!-- End Meta Pixel Code -->
 
     <style>
         * {
@@ -94,12 +96,8 @@
         }
 
         @keyframes marquee {
-            0% {
-                transform: translateX(0%);
-            }
-            100% {
-                transform: translateX(-50%);
-            }
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-50%); }
         }
 
         /* Glassmorphic Card Container */
@@ -116,7 +114,6 @@
             align-items: center;
         }
 
-        /* Top Tag */
         .top-tag {
             background: rgba(16, 185, 129, 0.08);
             border: 1px solid rgba(16, 185, 129, 0.25);
@@ -132,7 +129,6 @@
             gap: 6px;
         }
 
-        /* Profile Section */
         .profile-sec {
             position: relative;
             margin-bottom: 20px;
@@ -180,7 +176,6 @@
             border-radius: 50%;
         }
 
-        /* Header Info */
         .main-name {
             font-size: 26px;
             font-weight: 900;
@@ -206,7 +201,6 @@
             text-transform: uppercase;
         }
 
-        /* Stats Bar */
         .stats-grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -236,7 +230,6 @@
             font-weight: 500;
         }
 
-        /* Main Description */
         .bio-text {
             text-align: center;
             font-size: 13px;
@@ -252,7 +245,6 @@
             font-weight: 700;
         }
 
-        /* Call To Action Button */
         .btn-wrapper {
             width: 100%;
             margin-bottom: 12px;
@@ -307,7 +299,6 @@
             gap: 4px;
         }
 
-        /* Market Indices Grid */
         .indices-grid {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
@@ -337,7 +328,6 @@
             text-transform: uppercase;
         }
 
-        /* Badges Row */
         .badges-row {
             display: flex;
             justify-content: space-between;
@@ -355,7 +345,6 @@
             font-weight: 600;
         }
 
-        /* Feature Cards */
         .features-list {
             width: 100%;
             display: flex;
@@ -401,7 +390,6 @@
             line-height: 1.5;
         }
 
-        /* Agency Promotion Banner */
         .agency-banner {
             width: 100%;
             background: rgba(6, 22, 18, 0.9);
@@ -429,7 +417,6 @@
             font-weight: 800;
         }
 
-        /* Footer Quote & Disclaimer */
         .quote-box {
             text-align: center;
             font-size: 12px;
@@ -475,7 +462,6 @@
                 <span class="ticker-val">81,050.20</span>
                 <span class="ticker-change">▲ 0.58%</span>
             </div>
-
             <div class="ticker-item">
                 <span class="ticker-symbol">NIFTY 50</span>
                 <span class="ticker-val">24,812.30</span>
@@ -500,7 +486,6 @@
     </div>
 
     <div class="card-container">
-        
         <div class="top-tag">
             <span>◆</span> OFFICIAL TELEGRAM <span>◆</span>
         </div>
@@ -613,24 +598,21 @@
         <div class="disclaimer-text">
             Educational & informational purpose only. Trading mein risk hota hai — apna research aur risk management khud karein. Yeh investment advice nahi hai. Past performance future returns ki guarantee nahi deta.
         </div>
-
     </div>
 
     <script>
-        // Button Click Event Tracking
         function trackButtonClick() {
-            if(typeof fbq !== 'undefined') {
+            if (typeof fbq !== 'undefined') {
                 fbq('trackCustom', 'TelegramBtnClick'); 
                 fbq('track', 'Subscribe'); 
             }
         }
 
         function trackAgencyClick() {
-            if(typeof fbq !== 'undefined') {
+            if (typeof fbq !== 'undefined') {
                 fbq('trackCustom', 'AgencyBtnClick'); 
             }
         }
     </script>
-
 </body>
 </html>
